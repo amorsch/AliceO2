@@ -1,0 +1,8 @@
+digraph "o2::soa::generate_tuple_type&lt; T, N, REST &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{o2::soa::generate_tuple\l_type\< T, N, REST \>\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

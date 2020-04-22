@@ -1,0 +1,4 @@
+<map id="o2::tof::CompressedInspectorTask" name="o2::tof::CompressedInspectorTask">
+<area shape="rect" id="node2" href="$dd/dd9/classo2_1_1tof_1_1compressed_1_1DecoderBase.html" title="{o2::tof::compressed\l::DecoderBase\n||+ DecoderBase()\l+ ~DecoderBase()\l+ run()\l+ rewind()\l+ setDecoderVerbose()\l+ setDecoderBuffer()\l+ setDecoderBufferSize()\l}" alt="" coords="5,5,192,185"/>
+<area shape="rect" id="node3" href="$de/dac/classo2_1_1framework_1_1Task.html" title="{o2::framework::Task\n||+ ~Task()\l+ init()\l+ run()\l+ endOfStream()\l}" alt="" coords="216,35,371,156"/>
+</map>

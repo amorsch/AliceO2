@@ -1,0 +1,17 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/simulation/include/TOFSimulation/Detector.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/simulation/include/TOFSimulation/Detector.h">
+<area shape="rect" id="node2" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="980,213,1168,240"/>
+<area shape="rect" id="node22" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="143,295,357,322"/>
+<area shape="rect" id="node26" href="$d4/d54/Geo_8h.html" title="TOFBase/Geo.h" alt="" coords="2044,131,2165,158"/>
+<area shape="rect" id="node41" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="2675,124,2844,165"/>
+<area shape="rect" id="node9" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="1320,295,1561,322"/>
+<area shape="rect" id="node17" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="217,385,427,411"/>
+<area shape="rect" id="node27" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="2797,385,3050,411"/>
+<area shape="rect" id="node28" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="2131,213,2316,240"/>
+<area shape="rect" id="node29" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="1859,377,2057,419"/>
+<area shape="rect" id="node32" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="2125,288,2322,329"/>
+<area shape="rect" id="node35" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="2807,288,3039,329"/>
+<area shape="rect" id="node39" href="$d4/d78/DataFormats_2Headers_2include_2Headers_2RAWDataHeader_8h.html" title="Headers/RAWDataHeader.h" alt="" coords="2347,295,2545,322"/>
+<area shape="rect" id="node40" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="2570,295,2783,322"/>
+<area shape="rect" id="node42" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="3535,295,3715,322"/>
+<area shape="rect" id="node49" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="3801,385,3981,411"/>
+</map>

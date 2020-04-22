@@ -1,0 +1,21 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/DataFormats/simulation/src/DigitizationContext.cxx" name="/home/travis/build/AliceO2Group/AliceO2/DataFormats/simulation/src/DigitizationContext.cxx">
+<area shape="rect" id="node2" href="$d1/def/DigitizationContext_8h.html" title="SimulationDataFormat\l/DigitizationContext.h" alt="" coords="485,124,655,165"/>
+<area shape="rect" id="node30" href="$d2/d1f/MCEventHeader_8h.html" title="SimulationDataFormat\l/MCEventHeader.h" alt="" coords="1611,213,1780,255"/>
+<area shape="rect" id="node33" href="$d7/d61/NameConf_8h.html" title="Definition of the Names Generator class. " alt="" coords="1204,124,1432,165"/>
+<area shape="rect" id="node39" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="2160,221,2340,247"/>
+<area shape="rect" id="node6" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1013,213,1245,255"/>
+<area shape="rect" id="node12" href="$d4/d5f/BunchFilling_8h.html" title="CommonDataFormat/BunchFilling.h" alt="" coords="736,221,988,247"/>
+<area shape="rect" id="node15" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="33,303,261,344"/>
+<area shape="rect" id="node26" href="$de/d28/GRPObject_8h.html" title="Header of the General Run Parameters object. " alt="" coords="211,213,391,255"/>
+<area shape="rect" id="node11" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="611,310,865,337"/>
+<area shape="rect" id="node19" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="297,399,427,426"/>
+<area shape="rect" id="node20" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="359,556,501,583"/>
+<area shape="rect" id="node23" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="284,481,437,508"/>
+<area shape="rect" id="node25" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="513,481,771,508"/>
+<area shape="rect" id="node21" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="229,631,426,657"/>
+<area shape="rect" id="node22" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="450,631,615,657"/>
+<area shape="rect" id="node28" href="$da/d58/Units_8h.html" title="Header to collect definitions for different units. " alt="" coords="369,310,537,337"/>
+<area shape="rect" id="node32" href="$d6/d9d/MCEventStats_8h.html" title="SimulationDataFormat\l/MCEventStats.h" alt="" coords="1611,303,1780,344"/>
+<area shape="rect" id="node34" href="$d4/d8f/StringUtils_8h.html" title="CommonUtils/StringUtils.h" alt="" coords="1391,221,1586,247"/>
+<area shape="rect" id="node46" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="2245,310,2425,337"/>
+</map>

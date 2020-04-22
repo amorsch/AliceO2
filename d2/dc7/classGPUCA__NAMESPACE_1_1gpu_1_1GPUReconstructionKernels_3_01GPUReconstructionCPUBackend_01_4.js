@@ -1,0 +1,26 @@
+var classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4 =
+[
+    [ "classArgument", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a1ea02cac0747cda26989eb0d79fd0547", null ],
+    [ "krnlSetup", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a49a05567ffdb99fe4aaf813c441640fc", null ],
+    [ "~GPUReconstructionKernels", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a531658016f7f0803d4ea66fda56a3cd1", null ],
+    [ "GPUReconstructionKernels", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#aebd26b0e41e517c3399234950374469a", null ],
+    [ "GPUCA_KRNL", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a63bd0361296083ec780b947a4e52ce5b", null ],
+    [ "GPUCA_KRNL", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a4eac735939e0e4f99287ca5ab901a76d", null ],
+    [ "GPUCA_KRNL", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a28c0278b9e355613aa0f9892d9a554d2", null ],
+    [ "GPUCA_KRNL", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a7bcdb9c1f987ac9b1bf3a1f4b8f6cc98", null ],
+    [ "GPUCA_KRNL", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a945f45d8bced12228d16cb33d929b723", null ],
+    [ "GPUPtr1", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a471b7e22fae557368a32a104ed150add", null ],
+    [ "GPUPtr2", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#af98d1c8792f296abd06890bd3ab6675a", null ],
+    [ "allSlices", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a13766b81f6fd86f0f24e47cb4a30af11", null ],
+    [ "GPUCA_LB_GPUTPCGMMergerFollowLoopers", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a23a339758f06cd8d8458488d67df932a", null ],
+    [ "GPUCA_LB_GPUTPCNeighboursCleaner", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#aa8829920f9893de7f03cf97e9c2634b5", null ],
+    [ "GPUCA_LB_GPUTPCStartHitsSorter", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#af9522b94e5de3e87220593f8162a20db", null ],
+    [ "GPUCA_LB_GPUTPCTrackletConstructor", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a823d681ff8d5305f56f82463f73a0a85", null ],
+    [ "GPUCA_THREAD_COUNT", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#ac4ce70dae1c7f68c10bfa1690f0b42f2", null ],
+    [ "REG", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a7848f1634971883332d7d7c74a294b6d", null ],
+    [ "REG", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#aa5a2f6633be55ec1847a77d3a28da807", null ],
+    [ "simple", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#ace567dfc937432c51aa905366d2c62b9", null ],
+    [ "simple", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#aa0d142a522e8ea8b109909d7b7c01038", null ],
+    [ "single", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#ae5b29625a172b3830894b281f81a089c", null ],
+    [ "size", "d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html#a46284961c2caee3ad5051007bf612737", null ]
+];

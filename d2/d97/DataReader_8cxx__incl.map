@@ -1,0 +1,14 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/reconstruction/src/DataReader.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/reconstruction/src/DataReader.cxx">
+<area shape="rect" id="node2" href="$da/d07/Detectors_2TOF_2reconstruction_2include_2TOFReconstruction_2DataReader_8h.html" title="TOFReconstruction/DataReader.h" alt="" coords="376,124,611,151"/>
+<area shape="rect" id="node6" href="$d4/d54/Geo_8h.html" title="TOFBase/Geo.h" alt="" coords="649,281,770,307"/>
+<area shape="rect" id="node3" href="$d1/d90/Detectors_2TOF_2base_2include_2TOFBase_2Digit_8h.html" title="TOFBase/Digit.h" alt="" coords="370,199,497,225"/>
+<area shape="rect" id="node25" href="$de/d64/RangeReference_8h.html" title="Class to refer to the 1st entry and N elements of some group in the continuous container. " alt="" coords="294,281,574,307"/>
+<area shape="rect" id="node7" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="716,534,970,561"/>
+<area shape="rect" id="node8" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="1070,363,1256,389"/>
+<area shape="rect" id="node9" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="1716,527,1914,568"/>
+<area shape="rect" id="node16" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="1518,437,1715,479"/>
+<area shape="rect" id="node20" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="800,437,1032,479"/>
+<area shape="rect" id="node23" href="$d4/d78/DataFormats_2Headers_2include_2Headers_2RAWDataHeader_8h.html" title="Headers/RAWDataHeader.h" alt="" coords="1294,445,1493,471"/>
+<area shape="rect" id="node24" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="1056,445,1270,471"/>
+<area shape="rect" id="node26" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="378,363,545,389"/>
+</map>

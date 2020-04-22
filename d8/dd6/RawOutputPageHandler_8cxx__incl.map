@@ -1,0 +1,11 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/simulation/src/RawOutputPageHandler.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/simulation/src/RawOutputPageHandler.cxx">
+<area shape="rect" id="node3" href="$d4/d78/DataFormats_2Headers_2include_2Headers_2RAWDataHeader_8h.html" title="Headers/RAWDataHeader.h" alt="" coords="1820,310,2019,337"/>
+<area shape="rect" id="node5" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="1004,131,1189,158"/>
+<area shape="rect" id="node23" href="$d9/d87/RawOutputPageHandler_8h.html" title="EMCALSimulation/RawOutput\lPageHandler.h" alt="" coords="1229,124,1441,165"/>
+<area shape="rect" id="node7" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="361,303,558,344"/>
+<area shape="rect" id="node14" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="190,213,387,255"/>
+<area shape="rect" id="node18" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="966,213,1198,255"/>
+<area shape="rect" id="node22" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="497,221,710,247"/>
+<area shape="rect" id="node21" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="683,310,937,337"/>
+<area shape="rect" id="node26" href="$d4/d93/DMAOutputStream_8h.html" title="EMCALSimulation/DMAOutput\lStream.h" alt="" coords="1385,213,1600,255"/>
+</map>

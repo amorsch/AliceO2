@@ -1,0 +1,8 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/Raw/include/DetectorsRaw/HBFUtils.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/Raw/include/DetectorsRaw/HBFUtils.h">
+<area shape="rect" id="node3" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="205,213,403,255"/>
+<area shape="rect" id="node10" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="525,124,723,165"/>
+<area shape="rect" id="node14" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="823,124,1055,165"/>
+<area shape="rect" id="node19" href="$d4/d78/DataFormats_2Headers_2include_2Headers_2RAWDataHeader_8h.html" title="Headers/RAWDataHeader.h" alt="" coords="1079,131,1278,158"/>
+<area shape="rect" id="node20" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="1303,131,1516,158"/>
+<area shape="rect" id="node18" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="973,221,1227,247"/>
+</map>

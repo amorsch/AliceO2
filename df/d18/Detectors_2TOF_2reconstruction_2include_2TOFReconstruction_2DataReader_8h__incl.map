@@ -1,0 +1,13 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/reconstruction/include/TOFReconstruction/DataReader.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/reconstruction/include/TOFReconstruction/DataReader.h">
+<area shape="rect" id="node2" href="$d1/d90/Detectors_2TOF_2base_2include_2TOFBase_2Digit_8h.html" title="TOFBase/Digit.h" alt="" coords="341,139,468,165"/>
+<area shape="rect" id="node5" href="$d4/d54/Geo_8h.html" title="TOFBase/Geo.h" alt="" coords="393,221,515,247"/>
+<area shape="rect" id="node24" href="$de/d64/RangeReference_8h.html" title="Class to refer to the 1st entry and N elements of some group in the continuous container. " alt="" coords="38,221,318,247"/>
+<area shape="rect" id="node6" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="461,474,714,501"/>
+<area shape="rect" id="node7" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="808,303,993,329"/>
+<area shape="rect" id="node8" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="1157,467,1354,508"/>
+<area shape="rect" id="node15" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="1350,377,1547,419"/>
+<area shape="rect" id="node19" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="545,377,777,419"/>
+<area shape="rect" id="node22" href="$d4/d78/DataFormats_2Headers_2include_2Headers_2RAWDataHeader_8h.html" title="Headers/RAWDataHeader.h" alt="" coords="801,385,1000,411"/>
+<area shape="rect" id="node23" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="1025,385,1238,411"/>
+<area shape="rect" id="node25" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="123,303,289,329"/>
+</map>
