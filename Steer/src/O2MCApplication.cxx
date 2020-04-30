@@ -9,6 +9,7 @@
 // or submit itself to any jurisdiction.
 
 #include <Steer/O2MCApplication.h>
+#include <Steer/TransportMonitor.h>
 #include <FairMQChannel.h>
 #include <FairMQMessage.h>
 #include <FairMQDevice.h>
@@ -50,13 +51,38 @@ void TypedVectorAttach(const char* name, FairMQChannel& channel, FairMQParts& pa
 void O2MCApplicationBase::Stepping()
 {
   mStepCounter++;
+
+  if (!mMonitor) {
+    LOG(INFO) << "Monitor created";
+    mMonitor = new TransportMonitor(fMC->NofVolumes()+1);
+    mMonitor->Start();
+  }
+  if (fMC->IsNewTrack() || fMC->TrackTime() == 0. || fMC->TrackStep()<1.1E-10) {
+    mMonitor->DummyStep();
+  } else {
+    // Normal stepping
+    Int_t copy;
+    Int_t volId = fMC->CurrentVolID(copy);
+    Int_t pdg = fMC->TrackPid();
+    TLorentzVector xyz, pxpypz;
+    fMC->TrackPosition(xyz);
+    fMC->TrackMomentum(pxpypz);
+    mMonitor->StepInfo(volId, pdg, pxpypz.E(), xyz.X(), xyz.Y(), xyz.Z());
+  }
+  
+    
   if (mCutParams.stepFiltering) {
     // we can kill tracks here based on our
     // custom detector specificities
 
-    float x, y, z;
+    float x, y, z, r;
+  
     fMC->TrackPosition(x, y, z);
-
+    r = TMath::Sqrt(x * x + y * y);
+    //    if ((r > 590.) || (r > 200. && z > 500.) || TMath::Abs(z) > 2100.)  fMC->StopTrack();
+    // if ((r > .1))  fMC->StopTrack();
+    //    if ((r > 590.) || (r > 200. && z > 500.))  fMC->StopTrack();
+    
     if (z > mCutParams.ZmaxA) {
       fMC->StopTrack();
       return;
@@ -235,5 +261,11 @@ void O2MCApplication::SendData()
   LOG(INFO) << "sending message with " << simdataparts.Size() << " parts";
   mSimDataChannel->Send(simdataparts);
 }
+
+void O2MCApplication::FinishRun()
+  {                                                                                                                                                                                       LOG(INFO) << "Inside Finish Run - new";                                                                                                                                               mMonitor->Dump();                                                                                                                                                                     mMonitor->Print();                                                                                                                                                                    gDirectory->pwd();                                                                                                                                                                    TFile *file = new TFile("timing.root", "RECREATE");                                                                                                                                   gDirectory->pwd();                                                                                                                                                                    mMonitor->Write();                                                                                                                                                                    file->Write();                                                                                                                                                                        file->ls();                                                                                                                                                                           file->Close();
+    gDirectory->pwd();
+  }
+
 } // namespace steer
 } // namespace o2

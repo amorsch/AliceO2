@@ -13,18 +13,20 @@
 
 #include "FairMCApplication.h"
 #include "Steer/O2MCApplicationBase.h"
+#include "Steer/TransportMonitor.h"
 #include "Rtypes.h" // for Int_t, Bool_t, Double_t, etc
 #include <iostream>
 #include <TParticle.h>
+#include <TROOT.h>
 #include <vector>
 #include <SimulationDataFormat/Stack.h>
 #include <SimulationDataFormat/PrimaryChunk.h>
 #include <FairRootManager.h>
 #include <FairDetector.h>
+#include <FairLogger.h>
 
 class FairMQParts;
 class FairMQChannel;
-
 namespace o2
 {
 namespace steer
@@ -68,7 +70,7 @@ class O2MCApplication : public O2MCApplicationBase
 
   /** Define actions at the end of run */
   void FinishRun();
-
+    
   void attachSubEventInfo(FairMQParts&, o2::data::SubEventInfo const& info) const;
 
   /** Generate primary particles */
@@ -100,7 +102,6 @@ class O2MCApplication : public O2MCApplicationBase
   void setSubEventInfo(o2::data::SubEventInfo* i);
 
   std::vector<TParticle> mPrimaries; //!
-
   FairMQChannel* mSimDataChannel;                      //! generic channel on which to send sim data
   o2::data::SubEventInfo* mSubEventInfo = nullptr;     //! what are we currently processing?
   std::vector<o2::base::Detector*> mActiveO2Detectors; //! active (data taking) o2 detectors
