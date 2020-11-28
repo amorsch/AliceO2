@@ -23,13 +23,19 @@ namespace g4config
 {
 void G4Config();
 }
-
+namespace flukaconfig
+{
+  void FlukaConfig();
+}
+  
 void SimSetup::setup(const char* engine)
 {
   if (strcmp(engine, "TGeant3") == 0) {
     g3config::G3Config();
   } else if (strcmp(engine, "TGeant4") == 0) {
     g4config::G4Config();
+  } else if (strcmp(engine, "TFluka") == 0) {
+    flukaconfig::FlukaConfig();
   } else {
     LOG(FATAL) << "Unsupported engine " << engine;
   }

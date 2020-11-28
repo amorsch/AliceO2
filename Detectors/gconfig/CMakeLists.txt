@@ -9,7 +9,7 @@
 # submit itself to any jurisdiction.
 
 o2_add_library(SimSetup
-               SOURCES src/G3Config.cxx src/G4Config.cxx
+               SOURCES src/G3Config.cxx src/G4Config.cxx src/FlukaConfig.cxx
                        src/GlobalProcessCutSimParam.cxx src/SimSetup.cxx
                PUBLIC_LINK_LIBRARIES MC::Geant3
                                      MC::Geant4VMC

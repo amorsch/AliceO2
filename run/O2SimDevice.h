@@ -189,7 +189,7 @@ class O2SimDevice final : public FairMQDevice
           gRandom->SetSeed(chunk->mSubEventInfo.seed);
 
           auto& conf = o2::conf::SimConfig::Instance();
-          if (strcmp(conf.getMCEngine().c_str(), "TGeant4") == 0) {
+          if ((strcmp(conf.getMCEngine().c_str(), "TGeant4") == 0) || (strcmp(conf.getMCEngine().c_str(), "TFluka") == 0)) {
             mVMC->ProcessEvent();
           } else {
             // for Geant3 at least calling ProcessEvent is not enough
