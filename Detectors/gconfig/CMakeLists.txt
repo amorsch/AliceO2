@@ -14,6 +14,7 @@ o2_add_library(SimSetup
                PUBLIC_LINK_LIBRARIES MC::Geant3
                                      MC::Geant4VMC
                                      MC::Geant4
+				     MC::FlukaVMC
                                      O2::SimulationDataFormat
                                      O2::DetectorsPassive
 				     O2::Generators
@@ -49,3 +50,7 @@ o2_add_test_root_macro(g3Config.C
 o2_add_test_root_macro(g4Config.C
                        PUBLIC_LINK_LIBRARIES O2::SimSetup
                        LABELS simsetup)
+
+o2_add_test_root_macro(flukaConfig.C
+                       PUBLIC_LINK_LIBRARIES O2::SimSetup
+		       LABELS simsetup)

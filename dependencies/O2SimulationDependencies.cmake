@@ -63,6 +63,9 @@ set_package_properties(Geant4
 find_package(Geant4VMC MODULE)
 set_package_properties(Geant4VMC PROPERTIES TYPE ${mcPackageRequirement})
 
+find_package(FlukaVMC MODULE)
+set_package_properties(FlukaVMC PROPERTIES TYPE ${mcPackageRequirement})
+
 find_package(VGM MODULE)
 set_package_properties(VGM PROPERTIES TYPE ${mcPackageRequirement})
 
@@ -79,6 +82,7 @@ if(pythia_FOUND
    AND Geant3_FOUND
    AND Geant4_FOUND
    AND Geant4VMC_FOUND
+   AND FlukaVMC_FOUND	
    AND VGM_FOUND
    AND HepMC3_FOUND)
   set(doBuildSimulation ON)
