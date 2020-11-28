@@ -54,3 +54,5 @@ o2_add_test_root_macro(g4Config.C
 o2_add_test_root_macro(flukaConfig.C
                        PUBLIC_LINK_LIBRARIES O2::SimSetup
 		       LABELS simsetup)
+
+o2_data_file(COPY data  DESTINATION Detectors/gconfig/)
