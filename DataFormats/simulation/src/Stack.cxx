@@ -75,7 +75,7 @@ Stack::Stack(Int_t size)
     mIsG4Like(false)
 {
   auto vmc = TVirtualMC::GetMC();
-  mIsG4Like = !(vmc->SecondariesAreOrdered());
+  if (vmc)  mIsG4Like = !(vmc->SecondariesAreOrdered());
 }
 
 Stack::Stack(const Stack& rhs)
