@@ -10,6 +10,7 @@
 // or submit itself to any jurisdiction.
 
 #include <Steer/O2MCApplication.h>
+#include <Steer/TransportMonitor.h>
 #include <FairMQChannel.h>
 #include <FairMQMessage.h>
 #include <FairMQDevice.h>
@@ -52,6 +53,24 @@ void TypedVectorAttach(const char* name, FairMQChannel& channel, FairMQParts& pa
 void O2MCApplicationBase::Stepping()
 {
   mStepCounter++;
+  if (!mMonitor) {
+    LOG(INFO) << "Monitor created";
+    mMonitor = new TransportMonitor(fMC->NofVolumes()+1);
+    mMonitor->Start();
+  }
+  if (fMC->IsNewTrack() || fMC->TrackTime() == 0. || fMC->TrackStep()<1.1E-10) {
+    mMonitor->DummyStep();
+  } else {
+    // Normal stepping
+    Int_t copy;
+    Int_t volId = fMC->CurrentVolID(copy);
+    Int_t pdg = fMC->TrackPid();
+    TLorentzVector xyz, pxpypz;
+    fMC->TrackPosition(xyz);
+    fMC->TrackMomentum(pxpypz);
+    mMonitor->StepInfo(volId, pdg, pxpypz.E(), xyz.X(), xyz.Y(), xyz.Z());
+  }
+
   if (mCutParams.stepFiltering) {
     // we can kill tracks here based on our
     // custom detector specificities
@@ -283,6 +302,10 @@ void O2MCApplication::SendData()
   }
   LOG(INFO) << "sending message with " << simdataparts.Size() << " parts";
   mSimDataChannel->Send(simdataparts);
+}
+void O2MCApplication::FinishRun()
+{
+  gDirectory->pwd();
 }
 } // namespace steer
 } // namespace o2

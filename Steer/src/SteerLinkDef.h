@@ -20,5 +20,8 @@
 #pragma link C++ class o2::steer::O2MCApplicationBase + ;
 #pragma link C++ class o2::steer::O2MCApplication + ;
 #pragma link C++ class o2::steer::MCKinematicsReader + ;
-
+#pragma link C++ class  o2::steer::TransportMonitor+;
+#pragma link C++ class  o2::steer::TransportMonitorVol+;
+#pragma link C++ struct o2::steer::PMonData+;
+#pragma link C++ class  o2::steer::AliPDG + ;
 #endif

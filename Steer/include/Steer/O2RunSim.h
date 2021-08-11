@@ -38,7 +38,9 @@
 #include "FairTrajFilter.h"       // for FairTrajFilter
 #include "TRandom.h"
 #include <TObjString.h>
+#include "TFile.h"
 #include <Steer/O2MCApplication.h>
+#include <Steer/TransportMonitor.h>
 
 namespace o2
 {
@@ -139,6 +141,17 @@ class O2RunSim : public FairRunSim
   void Run(int n = 0, int b = 0) final
   {
     FairRunSim::Run(n, b);
+    auto app = dynamic_cast<O2MCApplicationBase*>(fApp);
+    auto monitor = app->Monitor();
+    monitor->Dump();
+    gDirectory->pwd();
+    TFile *file = new TFile("timing.root", "RECREATE");
+    gDirectory->pwd();
+    monitor->Write();
+    file->Write();
+    file->ls();
+    file->Close();
+    gDirectory->pwd();
   }
 
  private:

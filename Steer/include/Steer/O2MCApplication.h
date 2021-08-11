@@ -13,15 +13,18 @@
 #define O2_MC_APPLICATION_H
 
 #include "FairMCApplication.h"
+#include "Steer/TransportMonitor.h"
 #include "Steer/O2MCApplicationBase.h"
 #include "Rtypes.h" // for Int_t, Bool_t, Double_t, etc
 #include <iostream>
 #include <TParticle.h>
+#include <TROOT.h>
 #include <vector>
 #include <SimulationDataFormat/Stack.h>
 #include <SimulationDataFormat/PrimaryChunk.h>
 #include <FairRootManager.h>
 #include <FairDetector.h>
+#include <FairLogger.h>
 
 class FairMQParts;
 class FairMQChannel;

@@ -23,6 +23,7 @@
 #include "Rtypes.h" // for Int_t, Bool_t, Double_t, etc
 #include <TVirtualMC.h>
 #include "SimConfig/SimParams.h"
+#include  <Steer/TransportMonitor.h>
 
 namespace o2
 {
@@ -38,6 +39,7 @@ class O2MCApplicationBase : public FairMCApplication
   O2MCApplicationBase() : FairMCApplication(), mCutParams(o2::conf::SimCutParams::Instance()) {}
   O2MCApplicationBase(const char* name, const char* title, TObjArray* ModList, const char* MatName) : FairMCApplication(name, title, ModList, MatName), mCutParams(o2::conf::SimCutParams::Instance())
   {
+    mMonitor = nullptr;
   }
 
   ~O2MCApplicationBase() override = default;
@@ -49,6 +51,7 @@ class O2MCApplicationBase : public FairMCApplication
   void ConstructGeometry() override;
   void InitGeometry() override;
   bool MisalignGeometry() override;
+  TransportMonitor* Monitor() {return mMonitor;}
   void AddParticles() override;
 
   // specific implementation of our hard geometry limits
@@ -61,6 +64,7 @@ class O2MCApplicationBase : public FairMCApplication
   std::map<int, std::string> mModIdToName{};      // mapping of module id to name
   std::map<int, std::string> mSensitiveVolumes{}; // collection of all sensitive volumes with
                                                   // keeping track of volumeIds and volume names
+  TransportMonitor* mMonitor;
 
   /// some common parts of finishEvent
   void finishEventCommon();
