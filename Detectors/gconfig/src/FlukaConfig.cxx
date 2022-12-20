@@ -45,7 +45,7 @@ void linkFlukaFiles()
   // Give some meaningfull name to the output
   gSystem->Exec("ln -s fluka.out fort.11");
   gSystem->Exec("ln -s fluka.err fort.15");
-  gSystem->Exec("ln -fs $O2_ROOT/share/Detectors/gconfig/data/coreFlukaVmc.inp .");
+  gSystem->Exec("ln -fs $O2_ROOT/share/Detectors/gconfig/data/coreFlukaVmc.inp FlukaVmcBasic.inp");
 }
 
 void Config()
